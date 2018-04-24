@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>weather</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Quicksand:400,700'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+  <div id="top-lane">
+  <!--   <div id="unit-control">°C</div> -->
+  <!--   <div id="location-search">
+      <i id="search-icon" class="fa fa-search"> </i>
+      <input id="location-search-bar" class="controls" type="text">
+    </div> -->
+  </div>
+  <div id="loader-wrap" class="hide">
+    <div id="loader-icon" >
+      <div class="cloud small-cloud"></div>
+      <div class="cloud"></div>
+    </div>
+    <div id="load-text">
+      <h3>Looking Outside For You<span>.</span><span>.</span><span>.</span></h3>
+    </div>
+		<div id="credit">
+			<h6>Loading Icon Inspired By: Yemin Sajid</h6>
+		</div>
+  </div>
+  <div id="content" class="hide">
+    <h1 id="weather-location"></h1>
+    <h4 id="date"></h4>
+    <hr id="line-spacer" align="center">
+    <div id="weather-content">
+      <i id="weather-icon"></i>
+      <div id="temp"> 
+        <h1 id="weather-temp"></h1>
+        <h6 id="weather-limit"></h6>
+      </div>
+  <!--     <img id="weather-icon" src="http://openweathermap.org/img/w/10d.png" alt=""></img> -->
+    </div>
+    <h2 id="weather-description"></h2>
+
+    <div class="weather-other">
+      <div class="weather-detail">
+        <i id="humidity-icon" class="wi wi-raindrop"></i>
+        <h6 id="humidity-text"></h6>
+      </div>
+      <div class="weather-detail">
+        <i id="wind-icon" class="wi wi-strong-wind"></i>
+        <h6 id="wind-text"></h6>
+      </div>
+      <div class="weather-detail">
+        <i id="pressure-icon" class="wi wi-barometer"></i>
+        <h6 id="pressure-text"></h6>
+      </div>
+
+    </div>
+    <div class="weather-other">
+      <div class="weather-detail">
+        <i id="sunrise-icon" class="wi wi-sunrise"></i>
+        <h6 id="sunrise-text"></h6>
+      </div>
+      <div class="weather-detail">
+        <i id="sunset-icon" class="wi wi-sunset"></i>
+        <h6 id="sunset-text"></h6>
+      </div>
+      <div class="weather-detail">
+        <i id="visibility-icon" class="fa fa-eye"></i>
+        <h6 id="visibility-text"></h6>
+      </div>
+    </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
