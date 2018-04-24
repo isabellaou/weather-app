@@ -107,7 +107,7 @@ html, body {
   min-height: 400px;
   font-family:Questrial;
 }
-@media (min-width: 768px) and (orientation:portrait) {
+@media (min-width: 768px){
   html, body {
     font-size: 15px;
     letter-spacing: 3px;
